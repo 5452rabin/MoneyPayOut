@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DOTNET\\Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|c:\\dotnet\\assignment\\assignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|solutionrelative:assignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|c:\\dotnet\\assignment\\assignment\\views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|solutionrelative:assignment\\views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|c:\\dotnet\\assignment\\assignment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|solutionrelative:assignment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|c:\\dotnet\\assignment\\assignment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|solutionrelative:assignment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|c:\\dotnet\\assignment\\assignment\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|solutionrelative:assignment\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|c:\\dotnet\\assignment\\assignment\\services\\implementation\\trasactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDE564B-84DE-40C9-9D87-124A6335D606}|Assignment\\Assignment.csproj|solutionrelative:assignment\\services\\implementation\\trasactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TrasactionService.cs",
+              "DocumentMoniker": "C:\\DOTNET\\Assignment\\Assignment\\Services\\Implementation\\TrasactionService.cs",
+              "RelativeDocumentMoniker": "Assignment\\Services\\Implementation\\TrasactionService.cs",
+              "ToolTip": "C:\\DOTNET\\Assignment\\Assignment\\Services\\Implementation\\TrasactionService.cs",
+              "RelativeToolTip": "Assignment\\Services\\Implementation\\TrasactionService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:53:58.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Assignment\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Assignment\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T17:29:38.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Assignment\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Assignment\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T17:29:33.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Home\\History.cshtml",
+              "RelativeDocumentMoniker": "Assignment\\Views\\Home\\History.cshtml",
+              "ToolTip": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Home\\History.cshtml",
+              "RelativeToolTip": "Assignment\\Views\\Home\\History.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T15:51:14.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\DOTNET\\Assignment\\Assignment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Assignment\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\DOTNET\\Assignment\\Assignment\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Assignment\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:43:03.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Assignment\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\DOTNET\\Assignment\\Assignment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Assignment\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T15:41:30.722Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+﻿
+<div class="container border border-1">
+    <div class="d-flex justify-content-between mt-3">
+        From Date :<input type="date" id="fromdate" onchange="gettransaction()" />
+        To Date :<input type="date" id="todate" onchange="gettransaction()" />
+       
+    </div>
+    <div class="mt-3 d-flex justify-content-center">
+        <table class="border border-dark w-100">
+            <thead class="border border-dark">
+                <tr class="m-5">
+                    <th>S.N</th>
+                    <th>Sender Name</th>
+                    <th>Receiver Name</th>
+                    <th>Bank Name</th>
+                    <th>Sent Amount(MYR)</th>
+                    <th>Exchange Rate</th>
+                    <th>Payout Amount(NRP)</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    const defaultfromdate = '@DateTime.Now.ToString("yyyy-MM-dd")';
+    const defaulttodate = defaultfromdate;
+   
+    function gettransaction() {
+        const tableBody = document.getElementById("tablebody");
+        const fromDate = $("#fromdate").val();
+        const toDate = $("#todate").val();
+        if (fromDate === "" || toDate === "") {
+            fromDate = defaultfromdate;
+            toDate = defaulttodate;
+        }
+        // Clear the table body before appending new data
+        tableBody.innerHTML = "";
+
+        $.ajax({
+            url: '/Home/GetTrasaction',
+            type: 'GET',
+            data: {
+                fromDate: fromDate,
+                toDate: toDate
+            },
+            success: function (datas) {
+                let i = 1; // Initialize `i` outside the loop
+
+                datas.forEach(data => { // Correct `forEach` syntax
+                    console.log(data);
+
+                    // Create a new row for each transaction
+                    const row = document.createElement("tr"); // Correct element creation
+
+                    row.innerHTML = `
+                        <td>${i}</td>
+                        <td>${data.senderFirstName} ${data.senderMiddleName} ${data.senderLastName}</td>
+                        <td>${data.receiverFirstName} ${data.receiverMiddleName} ${data.receiverLastName}</td>
+                            <td>${data.bankName}</td>
+                                <td>${data.transferAmountMYR}</td>
+                                    <td>${data.exchangeRate}</td>
+                                         <td>${data.payoutAmountNPR}</td>
+
+                    `;
+
+                    tableBody.appendChild(row); // Append row to the table body
+
+                    i++; // Increment `i` after each row
+                });
+            }
+        });
+    }
+
+</script>
