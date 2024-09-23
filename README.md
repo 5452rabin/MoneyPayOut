@@ -2,6 +2,8 @@
 Frameworks:
 1. .NET Core 8 MVC
 2. SQL Server
+
+
 3.API integration for exchange rate 
 (https://www.nrb.org.np/api/forex/v1/rates?page=1&per_page=5&from=2024-06-12&to=2024-06-
 12
